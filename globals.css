@@ -21,6 +21,21 @@ header .Logo {
     font-size: 20px;
 }
 
+header ul.nav {
+    float: right;
+    list-style: none;
+}
+
+header ul.nav li {
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+header ul.nav li:hover {
+    opacity: 0.5;
+}
+
 header .presentation {
     margin: 50px 0;
     background: url("https://upload.wikimedia.org/wikipedia/commons/0/0e/Felis_silvestris_silvestris.jpg") no-repeat;
@@ -32,12 +47,13 @@ header .presentation {
 }
 
 header .presentation::after {
-    content: "Возможно Лучший Кот";
+    content: "Возможно Лучший Магазин Котов";
     position: absolute;
     top: 10px;
-    left: 30px;
+    left: 25px;
     font-weight: 800;
     color: white;
     font-size: 60px;
     width: 300px;
 }
+
